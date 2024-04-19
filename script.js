@@ -22,4 +22,7 @@ submitbutton1.onclick = function() {
   if (uinput1 === "Action" || uinput1 === "action" && uinput2 === "PG" || uinput2 === "pg" && uinput3 === "WB" || uinput3 === "WB"){
     results.innerHTML = '<a href="https://www.starwars.com/films">These Are Some DC Movies You Will Possibly Enjoy Watching!</a>';
   }
+  document.querySelector(".userinput1").value="";
+  document.querySelector(".userinput2").value="";
+  document.querySelector(".userinput3").value="";
 };
