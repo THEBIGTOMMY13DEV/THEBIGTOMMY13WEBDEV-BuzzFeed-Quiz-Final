@@ -1,0 +1,40 @@
+html{
+  height: auto;
+  width: auto;
+  background: hsla(0, 100%, 50%, 1);
+
+  background: linear-gradient(225deg, hsla(0, 100%, 50%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);
+
+  background: -moz-linear-gradient(225deg, hsla(0, 100%, 50%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);
+
+  background: -webkit-linear-gradient(225deg, hsla(0, 100%, 50%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF0000", endColorstr="#000000", GradientType=1 );
+  
+      font-family: 'Bison', sans-serif;
+    text-align: center;
+}
+body {
+  height: auto;
+  width: auto;
+  font-size:20px;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+
+}
+@font-face {
+    font-family: 'Bison';
+    src: url('./font/Bison-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./font/SF-Pro-Display-Bold.otf') format('opentype');
+}
+input{margin-left:auto;
+      margin-right:auto;
+     display:block;}
+.title{font-family: 'SF Pro Display', sans-serif;}
+.result{color:white;}
